@@ -94,6 +94,10 @@ function App() {
             <h3 className="achievement-title">🎓 <a href="https://www.linkedin.com/posts/juan-aquino-08262b197_el-2-de-agosto-defend%C3%AD-mi-tesis-y-oficialmente-activity-7374442841713864704-ClF3" target="_blank" rel="noopener noreferrer">Defensa de Tesis</a></h3>
             <p className="achievement-description">Graduación exitosa en Ingeniería en IA</p>
           </div>
+          <div className="achievement-item">
+            <h3 className="achievement-title">🎤 <a href="https://www.facebook.com/share/p/1ABVCLCxk4/" target="_blank" rel="noopener noreferrer">Entrevista en la radio</a></h3>
+            <p className="achievement-description">Participación en entrevista radial sobre IA y tecnología</p>
+          </div>
         </div>
       </div>
 

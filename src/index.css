@@ -29,7 +29,7 @@ body {
 .portfolio-container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 30px 25px;
+  padding: 20px 25px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   flex: 1;
   display: flex;
@@ -40,7 +40,7 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .profile-image {
@@ -69,7 +69,7 @@ body {
 .social-links {
   display: flex;
   gap: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   justify-content: center;
 }
 
@@ -90,30 +90,30 @@ body {
 }
 
 .section {
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .section h2 {
   font-size: 13px;
   font-weight: 700;
   color: #B8C5E8;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   border-bottom: 1px solid #4A5568;
-  padding-bottom: 8px;
+  padding-bottom: 6px;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
+  gap: 15px;
 }
 
 .project-item {
   background-color: #334155;
   border-radius: 8px;
-  padding: 20px;
+  padding: 16px;
   border: 1px solid #4A5568;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
@@ -145,14 +145,20 @@ body {
 
 .achievements-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .achievement-item {
   background-color: #334155;
   border-radius: 8px;
-  padding: 18px;
+  padding: 14px;
   border: 1px solid #4A5568;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
@@ -163,10 +169,10 @@ body {
 }
 
 .achievement-title {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   color: #ffffff;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 .achievement-title a {
@@ -181,9 +187,9 @@ body {
 }
 
 .achievement-description {
-  font-size: 13px;
+  font-size: 12px;
   color: #E2E8F0;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .profile-photo {
@@ -198,7 +204,7 @@ body {
 
 .footer {
   margin-top: auto;
-  padding: 20px 0;
+  padding: 15px 0;
   border-top: 1px solid #4A5568;
   text-align: center;
 }
